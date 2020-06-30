@@ -115,14 +115,12 @@ header{
 .product-section {
     margin-bottom: 30%;
     .product-section-logos {
-        img {
-            width: 60%;
-            padding: 10%;
-        }
         display: grid;
         grid-template-columns: 1fr 1fr ;
         justify-items: center;
-       
+        img {
+            padding: 15px;
+        }
     }
 }
 footer {
@@ -144,5 +142,32 @@ color: white;
 
 /*tablet styles --------------------- */
 @media(min-width: 550px) {
+    .header-hamburger-menu {
+        display: none;
+    }
+    .nav-header {
+        display: flex;
+        flex-direction: row;
+        .get-zenith {
+            background: linear-gradient(#ab00FF, #007bff);
+            border-radius: 25px;
+            color: white;
+            width: 140px;
+            height: 48px;
+            font-weight: bolder;
+        }
+        ul {
+            display: flex;
+            flex-direction: row;
+           li {
+               padding: 10px;
+           }
+        }
+    }
+    .product-section {
+        display: flex;
+        
+    }
+
     
 }

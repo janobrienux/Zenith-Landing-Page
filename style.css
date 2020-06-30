@@ -174,8 +174,7 @@ header nav ul li {
 }
 
 .product-section .product-section-logos img {
-  width: 60%;
-  padding: 10%;
+  padding: 15px;
 }
 
 footer {
@@ -203,4 +202,44 @@ footer .footer-nav ul li {
 }
 
 /*tablet styles --------------------- */
+@media (min-width: 550px) {
+  .header-hamburger-menu {
+    display: none;
+  }
+  .nav-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .nav-header .get-zenith {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ab00FF), to(#007bff));
+    background: linear-gradient(#ab00FF, #007bff);
+    border-radius: 25px;
+    color: white;
+    width: 140px;
+    height: 48px;
+    font-weight: bolder;
+  }
+  .nav-header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .nav-header ul li {
+    padding: 10px;
+  }
+  .product-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 /*# sourceMappingURL=style.css.map */
