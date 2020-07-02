@@ -187,6 +187,7 @@ color: white;
         }
     }
     .product-section-logos {
+        grid-template-areas: "slack trello google asana jira";
         .logo-wrapper {
             img {
                 width: 50%;

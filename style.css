@@ -261,6 +261,9 @@ footer .footer-nav ul li {
   .nav-header ul li {
     padding: 10px;
   }
+  .product-section-logos {
+        grid-template-areas: "slack trello google asana jira";
+  }
   .product-section-logos .logo-wrapper img {
     width: 50%;
   }
