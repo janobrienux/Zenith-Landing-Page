@@ -83,7 +83,7 @@ header nav ul li {
   background-image: url(./images/images/backgrounds/hero-bg-texture.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 20%;
+  background-position: center center;
 }
 
 .communication-section {
@@ -212,6 +212,33 @@ footer h4 {
   text-align: center;
 }
 
+footer form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer input {
+  background-color: #c084db;
+  border-radius: 20px;
+  border: none;
+  padding: 2px;
+  height: 30px;
+}
+
+footer button {
+  font-size: 8px;
+  font-weight: bold;
+  color: rgba(42, 2, 59, 0.842);
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+}
+
 footer .footer-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -260,12 +287,6 @@ footer .footer-nav ul li {
   }
   .nav-header ul li {
     padding: 10px;
-  }
-  .product-section-logos {
-        grid-template-areas: "slack trello google asana jira";
-  }
-  .product-section-logos .logo-wrapper img {
-    width: 50%;
   }
   .features-section {
     padding: 2%;
@@ -337,6 +358,15 @@ footer .footer-nav ul li {
   }
   .dashboard-card img {
     width: 80%;
+  }
+}
+
+@media (min-width: 900px) {
+  .communication-section {
+    background-image: url(./images/images/backgrounds/hero-bg-cards.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
