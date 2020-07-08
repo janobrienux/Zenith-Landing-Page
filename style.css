@@ -162,7 +162,7 @@ header nav ul li {
 }
 
 .product-section {
-  margin-bottom: 30%;
+  margin-bottom: 4%;
 }
 
 .product-section .product-section-logos {
@@ -199,7 +199,7 @@ header nav ul li {
 }
 
 .product-section .product-section-logos .logo-wrapper img {
-  padding: 15px;
+  padding: 15%;
 }
 
 footer {
@@ -237,6 +237,7 @@ footer button {
   background-color: white;
   border-radius: 20px;
   border: none;
+  margin-left: 6px;
 }
 
 footer .footer-nav {
@@ -367,6 +368,14 @@ footer .footer-nav ul li {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
+  .product-section {
+    padding: 10%;
+  }
+  .product-section .product-section-logos {
+    -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-areas: "slack trello google jira asana";
   }
 }
 /*# sourceMappingURL=style.css.map */

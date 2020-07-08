@@ -113,7 +113,7 @@ header{
 
 }
 .product-section {
-    margin-bottom: 30%;
+    margin-bottom: 4%;
     .product-section-logos {
         .slack {
             grid-area: slack;
@@ -140,7 +140,7 @@ header{
         justify-items: center;
         .logo-wrapper {
             img {
-            padding: 15px;
+            padding: 15%;
         }
     }
 }
@@ -172,6 +172,7 @@ color: white;
      background-color: white;
      border-radius: 20px;
      border: none;
+     margin-left: 6px;
  }
  .footer-nav {
      display: flex;
@@ -256,5 +257,12 @@ color: white;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    }
+    .product-section {
+        padding: 10%;
+        .product-section-logos {
+            grid-template-columns: repeat(5,1fr);
+            grid-template-areas: "slack trello google jira asana";
+        }
     }
 }
